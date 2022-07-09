@@ -1,0 +1,131 @@
+ body {
+    font-family: 'Barlow', sans-serif;
+    /* background-color:rgb(35, 34, 95); */
+    background-image: linear-gradient(to bottom right, rgb(35, 34, 95), rgba(94, 36, 71, 0.644));
+    background-repeat: no-repeat;
+    color: white;
+    height: 900px;
+  }
+
+  .container {
+    margin: auto;
+    width: 850px;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    
+    
+  }
+.row{
+    margin: auto;
+    width: 800px;
+}
+
+.col-date{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.place, .time{
+    font-size: 35px;
+    font-family: 'Barlow', sans-serif; 
+    
+}
+
+.date , .country{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    
+}
+
+.col-location{
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-right: 0px;
+}
+
+.blank-space{
+    height: 100px;
+}
+
+.details-row{
+    margin: auto;
+    width: 800px;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+   
+}
+
+.item{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 200px;
+    max-width: 150px;
+    background-color: rgba(30, 37, 44, 0.1);
+    font-weight: 400;
+}
+
+.icon, .desc, .min, .max,.label,.data{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: auto;
+    text-align: center;
+    min-height: fit-content;
+    font-weight: bold;
+    
+}
+.min, .max{
+    text-align: left;
+    align-items: center;
+}
+
+/* .weather-type{
+    display: grid;
+    grid-template-rows: 75% 25%;
+    grid-template-columns: 100%;
+} */
+
+.min-max{
+    display: grid;
+    grid-template-rows:50% 50%;
+    grid-template-columns: 25% 75%;
+}
+.humidity-dat, .sunrise-data, .sunset-data, .weather-type-data{
+    display: grid;
+    grid-template-rows: 50% 25% 25%;
+    grid-template-columns: 100%;
+}
+
+
+  .weather {
+    display: flex; 
+    align-items: center;
+    margin: 15px 0;
+    font-size: 1.5rem;
+  }
+
+  /* #location {
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: italic;
+  } */
+  .desc {
+    /* font-size: 1.25rem; */
+    text-transform: capitalize;
+  }
+
+
+  .circle {
+    background-color: black;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    margin: 0 15px;
+  }
